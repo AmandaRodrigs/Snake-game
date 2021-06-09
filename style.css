@@ -1,0 +1,16 @@
+body{
+    height: 95vh; /* vh viewport, a parte que fica a vista do nosso documento */
+    width: 95;
+    display: flex;
+    justify-content: center; /* alinha verticalmente no centro */
+    align-items: center; /* alinha horizontalmente no centro */
+    flex-direction: column;
+    background-color: rgb(246, 196, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(48, 48, 48);
+}
+
+#snake{
+    border-radius: 2%;
+    border: #204C71 solid 0.5px;
+}
